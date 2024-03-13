@@ -61,7 +61,7 @@ li {
   --tp-grey-2: #F5F6F8;
   --tp-text-body: #777777;
   --tp-text-p: #777777;
-  --tp-theme-1: #3c8599;
+  --tp-theme-1: #49abf5;
   --tp-border-1: #000;
   /**
   @font weight declaration
@@ -95,7 +95,7 @@ li {
 }
 
 /*---------------------------------
-    typography css start 
+    typography css start
 ---------------------------------*/
 body {
   font-family: var(--tp-ff-body);
@@ -278,7 +278,7 @@ input[type=color] {
 }
 
 /*---------------------------------
-    common classes css start 
+    common classes css start
 ---------------------------------*/
 .w-img img {
   width: 100%;
@@ -336,7 +336,7 @@ img {
 }
 
 /*----------------------------------------
-    Body Overlay 
+    Body Overlay
 -----------------------------------------*/
 .body-overlay {
   background-color: rgba(var(--tp-common-black), 0.5);
@@ -522,7 +522,7 @@ img {
   font-size: 16px;
   font-weight: 700;
   color: var(--tp-common-white);
-  background: #226172;
+  background: #49abf5;
   height: 48px;
   line-height: 49px;
   text-align: center;
@@ -913,7 +913,7 @@ img {
 }
 
 .tp-section-subtitle {
-  background: #3c8599;
+  background: #49abf5;
   color: #fff;
   font-weight: 700;
   padding: 3px 10px;
@@ -921,7 +921,7 @@ img {
 }
 
 .tp-section-box-2 .tp-section-subtitle {
-  color: #3c8599;
+  color: #49abf5;
   font-weight: 700;
   text-transform: uppercase;
   background: 0;
@@ -1839,7 +1839,7 @@ img {
 }
 .tp-header-icon:hover {
   background-color: var(--tp-theme-1);
-  border: 1px solid #3c8599;
+  border: 1px solid #49abf5;
   color: #fff;
 }
 
@@ -2361,7 +2361,7 @@ img {
   }
 }
 .tp-slide-service h4 {
-  color: #3c8599;
+  color: #49abf5;
   font-size: 48px;
   margin-right: 12px;
   margin-bottom: 0;
@@ -2737,7 +2737,7 @@ img {
 
 .tp-ab-meta-text span i {
   font-style: normal;
-  color: #3c8599;
+  color: #49abf5;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2789,12 +2789,12 @@ img {
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  border: 1px solid #3c8599;
+  border: 1px solid #49abf5;
   font-size: 10px;
   text-align: center;
   line-height: 13px;
   margin-right: 15px;
-  color: #3c8599;
+  color: #49abf5;
   position: absolute;
   left: 0;
   top: 5px;
@@ -3246,7 +3246,7 @@ img {
   position: relative;
   z-index: 1;
   margin-bottom: 30px;
-  color: #3C8599;
+  color: #49abf5;
   font-size: 75px;
 }
 .tpservices__content p {
@@ -4153,11 +4153,11 @@ img {
   padding-bottom: 40px;
 }
 .tp-porduct-item:hover {
-  border: 4px solid #3c8599;
+  border: 4px solid #49abf5;
 }
 
 .tp-pro-rating span {
-  color: #3c8599;
+  color: #49abf5;
 }
 
 .tp-pro-price span {
@@ -4441,7 +4441,7 @@ img {
 
 .tpsupport__overlay-content a:hover {
   background: #fff;
-  color: #3c8599;
+  color: #49abf5;
 }
 
 .tp-fea-item {
@@ -4886,7 +4886,7 @@ img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #3c8599;
+  background: #49abf5;
   color: #fff;
   height: 25px;
   width: 25px;
@@ -5029,7 +5029,7 @@ img {
   top: -120px;
   right: 0px;
   color: var(--tp-common-white);
-  border: 1px solid #3c8599;
+  border: 1px solid #49abf5;
 }
 
 .tp-testimonial-white button:hover {
@@ -5044,7 +5044,7 @@ img {
   background: var(--tp-theme-1);
   border-radius: 50%;
   color: #fff;
-  border: 1px solid #3c8599;
+  border: 1px solid #49abf5;
 }
 
 .tp-test-arrow button:hover {
@@ -6288,7 +6288,7 @@ blockquote cite::before {
 }
 .tp-port-button button.active {
   color: var(--tp-theme-1);
-  border-bottom: 2px solid #3c8599;
+  border-bottom: 2px solid #49abf5;
 }
 
 .tp-port-item {
@@ -8198,8 +8198,8 @@ p.checkout-coupon input[type=text]:focus {
   color: black;
 }
 .footer-widget-2 .footer-link {
-  color: #3c8599;
-  border-bottom: 1px solid #3c8599;
+  color: #49abf5;
+  border-bottom: 1px solid #49abf5;
   font-weight: 700;
 }
 .footer-widget-2 .footer-link i {
@@ -8296,7 +8296,7 @@ p.checkout-coupon input[type=text]:focus {
 
 .footer-subscribe button {
   position: absolute;
-  background: #3c8599;
+  background: #49abf5;
   width: 60px;
   height: 100%;
   color: #fff;

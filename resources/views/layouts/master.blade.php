@@ -177,7 +177,7 @@
                 <div class="row">
                     <div class="col-xl-7 col-lg-7 text-lg-start col-12 text-center ">
                         <div class="copyright-text">
-                            <p>Copyright © 2023. Developed with ❤ by <span><a href="https://kreativetouch.agency">Kreative Touch</a></span>.</p>
+                            <p>Copyright © 2023. Developed with ❤ by <span><a target="_blank" href="https://kreativetouch.agency">Kreative Touch</a></span>.</p>
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-5 text-lg-end col-12 text-center ">
