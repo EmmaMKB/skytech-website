@@ -52,66 +52,109 @@
     </div>
     <!-- back to top end -->
 
-    <!-- header start -->
-    <header>
-
-        <div class="header-area header-1-space pl-60 pr-60">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-xl-2 col-lg-6 col-md-5 col-7">
-                        <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt="logo"></a>
+    <header class="p-relative">
+      <div class="tp-header-area header-area-space p-relative pt-20 pb-50 d-none d-xl-block"
+         data-background="{{ asset('assets/img/bg/header-bg.jpg') }}">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-xl-3 col-lg-6 col-md-6 col-6">
+                  <div class="logo">
+                     <a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo/logo-3.png') }}" alt="Skytech Solutions"></a>
+                  </div>
+               </div>
+               <div class="col-xl-9">
+                  <div class="tp-contact-wapper d-flex justify-content-end">
+                     <div class="tp-header-contact d-none d-xl-block pr-40">
+                        <div class="tp-header-contact-icon d-flex align-items-center">
+                           <div><a href="#"><i class="fas fa-phone"></i></a></div>
+                           <div class="tp-header-icon-info">
+                              <label>Make a call</label>
+                              <a href="tel:+243970045413">
+                                 +243 970 045 413
+                              </a>
+                           </div>
                         </div>
-                    </div>
-                    <div class="col-xl-7 d-none d-xl-block text-end">
-                        <div class="tp-main-menu text-center">
-                            <nav id="mobile-menu">
-                                <ul>
-                                    <li><a href="{{ route('home') }}">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Shop</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </nav>
+                     </div>
+                     <div class="tp-header-contact d-none d-xl-block">
+                        <div class="tp-header-contact-icon d-flex align-items-center">
+                           <div><a href="#"><i class="fal fa-envelope-open"></i></a></div>
+                           <div class="tp-header-icon-info">
+                              <label>Email Us</label>
+                              <a href="mailto:info@skytechsolutions-drc.com">
+                                 info@skytechsolutions-drc.com
+                              </a>
+                           </div>
                         </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-6 col-md-7 col-5">
-                        <div class="search-main p-relative">
-                            <div class="tp-header-right">
-                                <a href="#" class="tp-btn-2 ml-20 d-none d-md-inline-block">Get In
-                                    Touch</a>
-                                <a href="#" class="tp-menu-toggle tp-header-icon ml-20 d-xl-none"><i
-                                        class="far fa-bars"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                     </div>
+                     <div class="tp-header-right ml-30">
+                        <a href="#" class="tp-btn-simelar ml-20 d-none d-md-block">Contact Us</a>
+                        <a href="#" class="tp-menu-toggle tp-header-icon2 ml-20 d-xl-none"><i class="far fa-bars"></i></a>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </header>
-    <!-- header end -->
+         </div>
+         <!-- for lg header  -->
+      </div>
+      <div class="tp-header-menu-area d-none d-xl-block">
+         <div class="container">
+            <div class="header-inner white-bg">
+               <div class="row g-0 align-items-center">
+                  <div class="col-xl-9">
+                     <div class="tp-main-menu-2">
+                        <nav id="mobile-menu">
+                           <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">About</a></li>
+                              <li><a href="#">Services</a></li>
+                              <li><a href="#">Shop</a></li>
+                              <li><a href="#">Contact</a></li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+                  <div class="col-xl-3  d-xl-block">
 
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- mobile menu start -->
+      <div class="tp-header-2-mobile-area d-block d-xl-none" data-background="{{ asset('assets/img/bg/header-bg.jpg') }}">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-6">
+                  <div class="logo">
+                     <a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo/logo2.png') }}" alt="Skytech Solutions"></a>
+                  </div>
+               </div>
+               <div class="col-6">
+                  <div class="tp-header-right ml-30">
+                     <a href="#" class="tp-btn-simelar ml-20 d-none d-md-block">Contact us</a>
+                     <a href="#" class="tp-menu-toggle tp-header-icon2 ml-20 d-xl-none"><i class="far fa-bars"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- mobile menu start -->
+   </header>
+   @yield('content')
     <div class="tp-sidebar-menu ">
         <button class="sidebar-close"><i class="fal fa-times"></i></button>
         <div class="side-logo mb-20">
-            <a href="index.html"><img src="assets/img/logo/logo.png" alt="logo"></a>
+            <a href="{{ route('home') }}"><img src="{{ asset('assets/img/logo/logo.png') }}" alt="Skytech Solutions"></a>
         </div>
         <div class="mobile-menu">
             <div class="sidebar-title">
                 <h3>CONTACT US</h3>
             </div>
             <ul class="sidebar-list">
-                <li>27 Division St, New York</li>
-                <li>+1 800 123 456 78</li>
-                <li>sectox@mail.com</li>
+                <li>1313, Av. Ndjamena, Lubumbashi, RDC</li>
+                <li><a href="tel:+243970045413">+243 970 045 413</a></li>
             </ul>
-            <div class="tp-sidebar-social">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-dribbble"></i></a>
-            </div>
         </div>
     </div>
     <div class="body-overlay"></div>
